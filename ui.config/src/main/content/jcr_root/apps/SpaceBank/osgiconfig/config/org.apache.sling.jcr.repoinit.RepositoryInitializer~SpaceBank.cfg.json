@@ -1,0 +1,10 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/SpaceBank",
+        "create path (nt:unstructured) /content/dam/SpaceBank/jcr:content",
+        "set properties on /content/dam/SpaceBank/jcr:content",
+        "set cq:conf{String} to /conf/SpaceBank",
+        "set jcr:title{String} to \"SpaceBank\"",
+        "end"
+    ]
+}
